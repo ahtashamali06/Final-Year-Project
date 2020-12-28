@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/template"
+        android:title="Template"
+        android:icon="@drawable/ic_baseline_template_24"
+        android:iconTint="#00B8D4"
+        />
+    <item android:id="@+id/calls"
+        android:title="Calls"
+        android:iconTint="#00B8D4"
+        android:icon="@drawable/ic_baseline_call_black"
+        />
+    <item android:id="@+id/camera"
+        android:title="Camera"
+        android:iconTint="#00B8D4"
+        android:icon="@drawable/ic_baseline_camera"
+        />
+    <item android:id="@+id/chats"
+        android:title="Chats"
+        android:iconTint="#00B8D4"
+        android:icon="@drawable/ic_baseline_chat"
+        />
+    <item android:id="@+id/setting"
+        android:title="Setting"
+        android:iconTint="#00B8D4"
+        android:icon="@drawable/ic_baseline_settings"
+        />
+</menu>

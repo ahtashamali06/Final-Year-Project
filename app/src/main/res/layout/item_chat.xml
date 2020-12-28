@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/layout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/users_single_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_baseline_account_circle_black"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/users_single_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Display Title"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/users_single_image"
+        android:layout_toRightOf="@id/users_single_image"/>
+
+    <TextView
+        android:id="@+id/users_single_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Hi, I am using CONNECT"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@id/users_single_image"
+        android:layout_toRightOf="@id/users_single_image"/>
+
+</RelativeLayout>

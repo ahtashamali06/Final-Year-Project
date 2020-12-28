@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval" android:padding="10dp">
+
+                <size
+                    android:width="120dp"
+                    android:height="120dp"/>
+                <solid android:color="@color/colorChat"/>
+                <stroke android:color="@android:color/background_light" android:width="0.1dp"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/send_button" android:gravity="center"/>
+
+
+</layer-list>
